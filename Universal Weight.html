@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Weight</title>
+    <style>
+     button{
+        background-color: blue;
+        color: aliceblue;
+        
+     }
+    </style>
+    <link rel="stylesheet" href="weight.css">
+</head>
+<body class="p">
+    <div class="center">
+    <div class="a">
+        <h2>To know about your weight in other planets Please</h2>
+        <b>Enter Your Weight:</b>
+        <br><input type="number" id="wgt"><br>
+         <button onclick="calWeight()">submit</button><br>
+    </div>
+    <div class="b">
+         <div class="mer">
+            <img src="https://wallpaperaccess.com/full/1133750.jpg" class="img1"><br>
+            <B> Mercury</B> :  <span id="mer"></span> <b>kg</B>
+         </div>
+         <div class="ven">
+            <img src="https://preview.redd.it/yetjw5f173i31.jpg?width=640&crop=smart&auto=webp&s=d6d63d70ca3b94219c0a34cd995a8ab354a0a1cb" class="img2"><br>
+            <b> Venus</b> :  <span id="ven"></span> <b> kg</b>
+         </div>
+         <div class="mar">
+            <img src="https://cdn.mos.cms.futurecdn.net/L868HCTDT8ueAXXrcyXoWc-320-80.jpg" class="img3"><br>
+            <B> Mars</B> :  <span id="mar"></span><B>  kg</B>
+         </div>
+         <br>
+         <div class="jup">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter.jpg/600px-Jupiter.jpg" class="img4"><br>
+             <b>Jupiter</b> :  <span id="jup"></span> <b>kg</b>
+         </div>
+         <div class="sat">
+            <img src="https://sos.noaa.gov/ftp_mirror/astronomy/saturn/color_enhanced/media/thumbnail_big.jpg" class="img5"><br>
+             <b>Saturn</b> :  <span id="sat"></span>  <b>kg</b>
+         </div>
+         <div class="ura">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR95MPTTT_8mqDWeDz9vtNYMnS70sncruYz2A&usqp=CAU" class="img6"><br>
+             <b>Uranus</b> :  <span id="ura"></span> <b>kg</b>
+         </div>
+         <br>
+         <div class="nep">
+            <img src="https://physicsworld.com/wp-content/uploads/2020/12/PIA18182.jpg" class="img7"> <br>
+             <b>Neptune</b> :  <span id="nep"></span>  <b>kg</b>
+         </div>
+         <div class="plu">
+            <img src="https://in-the-sky.org/image.php?style=medium&img=objects/pluto.jpg" class="img8"><br>
+             <b>Pluto</b> :  <span id="plu"></span>  <b>kg</b>
+         </div>
+         
+         <div class="moon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/220px-FullMoon2010.jpg" class="img9"><br>
+             <b>Moon</b> :  <span id="moon"></span>  <b>kg</b>
+         </div>
+         <br>
+        </div>
+      
+      
+    </div>
+    </div>
+</body>
+<script>
+     function calWeight() {
+        var w = parseFloat(document.getElementById("wgt").value);
+
+        mercury = Math.trunc(w*0.38);
+        document.getElementById("mer").innerHTML = mercury;
+
+        venus = Math.trunc(w*0.91);
+        document.getElementById("ven").innerHTML = venus;
+
+        mars = Math.trunc(w*0.38);
+        document.getElementById("mar").innerHTML = mars;
+
+        jupiter = Math.trunc(w*2.53);
+        document.getElementById("jup").innerHTML = jupiter;
+
+        saturn = Math.trunc(w*1.06);
+        document.getElementById("sat").innerHTML = saturn;
+
+        uranus=Math.trunc( w*0.89);
+        document.getElementById("ura").innerHTML = uranus;
+
+        neptune =  Math.trunc(w*1.12);
+        document.getElementById("nep").innerHTML = neptune ;
+
+        pluto = Math.trunc(w*0.07);
+        document.getElementById("plu").innerHTML = pluto;
+
+        moon = Math.trunc(w*0.17);
+        document.getElementById("moon").innerHTML =moon ;
+         
+     }
+</script>
+</html>
+
+

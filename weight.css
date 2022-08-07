@@ -1,0 +1,158 @@
+.p {
+    background-image: url(https://wallpapercave.com/wp/wp3493599.jpg);
+}
+
+    
+
+
+.a{
+    border-style: double ;
+    border-color: chartreuse;
+    text-align: center;
+    color: chartreuse;
+    margin-bottom: 125px;
+    margin-top: 25px;
+}
+.b{ border-style: double ;
+    text-align: center;
+    color: chartreuse;
+    border-color: chartreuse;
+    font-size: large;
+    font-weight: bold;
+    
+
+}
+
+.mer {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-top: 75px;
+    
+    
+    
+}
+
+.img1 {
+    height: 100px;
+    border-radius: 50px;
+}
+
+.ven {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+
+}
+
+.img2 {
+    height: 100px;
+      border-radius: 50px;
+}
+
+.mar {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    
+    
+}
+
+.img3 {
+    height: 100px;
+      border-radius: 50px;
+
+}
+
+.jup {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-top: 50px;
+    
+    
+}
+
+.img4 {
+    height: 100px;
+      border-radius: 50px;
+}
+
+  .ura  {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+  }
+.img5 {
+    height: 100px;
+    width: 100px;
+      border-radius: 90px;
+}
+
+  .sat  {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+}
+.img6 {
+    height: 100px;
+      border-radius: 50px;
+    
+}
+
+ .nep  {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+    
+} 
+.img7 {
+    height: 100px;
+      border-radius: 50px;
+}
+
+ .moon{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    
+    
+    
+}
+.img8 {
+    height: 100px;
+      border-radius: 50px;
+}
+.plu {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.img9 {
+    height: 100px;
+      border-radius: 50px;
+}
+
